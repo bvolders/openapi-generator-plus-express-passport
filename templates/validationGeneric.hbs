@@ -94,7 +94,7 @@ export function model{{className nativeType.parentType}}FromJson(name: string, v
 	for (const key of Object.keys(value)) {
 		if (!knownKeys[key]) {
 			// throw `Unexpected key: ${key}`
-			console.debug(`Unexpected key in {{nativeType}}: ${key}`)
+			//console.debug(`Unexpected key in {{nativeType}}: ${key}`)
 		}
 	}
 
@@ -122,7 +122,7 @@ export function model{{className nativeType.parentType}}ToJson(name: string, val
 	for (const key of Object.keys(value)) {
 		if (!knownKeys[key]) {
 			// throw `Unexpected key: ${key}`
-			console.debug(`Unexpected key in {{nativeType}}: ${key}`)
+			// console.debug(`Unexpected key in {{nativeType}}: ${key}`)
 		}
 	}
 
